@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1> Bookstore</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#books">Books</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2>Discover Your Next Read</h2>
+        <p>Explore our wide collection of books and find your next favorite read.</p>
+        <button onclick="scrollToBooks()">View Books</button>
+    </section>
+    <section id="books">
+        <h2>Books</h2>
+        <div class="book-list">
+            <div class="book-card">
+                <img src="book1.jpg" alt="Book 1">
+                <h3>Wings Of Fire</h3>
+                <p>Author: APJ Abdul Kalam</p>
+                <p>Price: $9.99</p>
+                <button onclick="checkPrice('book1', 9.99)">Check Price</button>
+            </div>
+            <div class="book-card">
+                <img src="book2.jpg" alt="Book 2">
+                <h3>2 STATES</h3>
+                <p>Author: Chetan Bhagat</p>
+                <p>Price: $15.99</p>
+                <button onclick="checkPrice('book2', 12.99)">Check Price</button>
+            </div>
+            <div class="book-card">
+                <img src="book3.jpg" alt="Book 3">
+                <h3>Panchantantra</h3>
+                <p>Author: Gopu Books</p>
+                <p>Price: $5.99</p>
+                <button onclick="checkPrice('book2', 12.99)">Check Price</button>
+            </div>
+            <div class="book-card">
+                <img src="book4.jpg" alt="Book 4">
+                <h3>Energize Your Mind</h3>
+                <p>Author: Gaur Gopal Das</p>
+                <p>Price: $12.99</p>
+                <button onclick="checkPrice('book2', 12.99)">Check Price</button>
+            </div>
+            <div class="book-card">
+                <img src="book5.jpg" alt="Book 5">
+                <h3>The Two Towers</h3>
+                <p>Author: J.R.R.Tolklen</p>
+                <p>Price: $16.99</p>
+                <button onclick="checkPrice('book2', 12.99)">Check Price</button>
+            </div>
+            <div class="book-card">
+                <img src="book6.jpg" alt="Book 6">
+                <h3>Picture Dorian Gray </h3>
+                <p>Author: Oscar Wild</p>
+                <p>Price: $20.99</p>
+                <button onclick="checkPrice('book2', 12.99)">Check Price</button>
+            </div>
+            <div class="book-card">
+                <img src="book7.jpg" alt="Book 7">
+                <h3>Book Title 2</h3>
+                <p>Author: Author 2</p>
+                <p>Price: $12.99</p>
+                <button onclick="checkPrice('book2', 12.99)">Check Price</button>
+            </div>
+            <div class="book-card">
+                <img src="book8.jpg" alt="Book 8">
+                <h3>Book Title 2</h3>
+                <p>Author: Author 2</p>
+                <p>Price: $12.99</p>
+                <button onclick="checkPrice('book2', 12.99)">Check Price</button>
+            </div>
+            <div class="book-card">
+                <img src="book9.jpg" alt="Book 9">
+                <h3>Book Title 2</h3>
+                <p>Author: Author 2</p>
+                <p>Price: $12.99</p>
+                <button onclick="checkPrice('book2', 12.99)">Check Price</button>
+            </div>
+            <div class="book-card">
+                <img src="book10.jpg" alt="Book 10">
+                <h3>Book Title 2</h3>
+                <p>Author: Author 2</p>
+                <p>Price: $12.99</p>
+                <button onclick="checkPrice('book2', 12.99)">Check Price</button>
+            </div>
+            <!-- Add more book cards here -->
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to our book store! We are a passionate team of book lovers dedicated to providing a unique and enriching reading experience to our customers. Our bookstore is more than just a place to buy books; it's a haven for bookworms, a treasure trove of stories, and a community for literary enthusiasts.
+
+            Our store has been serving avid readers for over a decade, offering a wide range of genres, from classic literature to contemporary bestsellers, from thought-provoking non-fiction to heartwarming children's books. We carefully curate our collection to ensure that every book on our shelves is of the highest quality and has the power to captivate and inspire.
+            
+            At our store, we believe in the power of books to educate, entertain, and foster empathy. We strive to create a warm and inviting atmosphere where book lovers of all ages can explore, discover, and connect with the stories that resonate with them. Our knowledgeable and friendly staff is always ready to offer recommendations and engage in meaningful conversations about books, literature, and the joy of reading.
+            
+            In addition to our carefully curated book selection, we also host a variety of events and activities that celebrate the written word. From author signings and book clubs to writing workshops and storytelling sessions for children, our store is a hub of literary events that bring book lovers together and create a sense of community.
+            
+            As a locally owned and operated bookstore, we are committed to supporting and promoting local authors and publishers. We actively collaborate with local schools, libraries, and other organizations to promote literacy and foster a love for reading in our community. We also strive to be environmentally conscious by promoting sustainable practices, such as recycling, reducing waste, and supporting eco-friendly publishing initiatives.
+            
+            Whether you're a lifelong bookworm a casual reader, or just looking for the perfect gift, we invite you to explore our store and discover the magic of books. Join us on this literary journey and let us be your trusted destination for all things book-related. Thank you for visiting our website, and we look forward to welcoming you to our store</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for inquiries, feedback, or suggestions.</p>
+        <p> *******************************************************************</p>
+        <p>ph - 9635254785 </p>
+        <p>email - bookstore@gmail.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Bookstore. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
